@@ -1,0 +1,3 @@
+.<%= name.charAt(0).toLowerCase() + name.substr(1) %> {
+    display: block;
+}

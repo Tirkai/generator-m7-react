@@ -1,7 +1,6 @@
 import { JsonRpcEndpoint, UtilsFunctions } from "@algont/m7-utils";
 
-export const workstationEndpoint = new JsonRpcEndpoint(
-    `http://workstation.${UtilsFunctions.getUpperLevelDomain()}:15007/jsonrpc`,
+export const exampleEndpoint = new JsonRpcEndpoint(
+    `http://shell.${UtilsFunctions.getUpperLevelDomain()}`,
 );
 
-export const webSocketEndpoint = `http://workstation.${UtilsFunctions.getUpperLevelDomain()}:15007/`;
